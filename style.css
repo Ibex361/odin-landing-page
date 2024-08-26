@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.header {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header,
+.info-content,
+.footer {
+    color: white;
+    background-color: #1F2937;
+}
+
+
+.hero-text {
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.info-content {
+    /* height: 300px; */
+    /* padding: 13px 130px;   */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.box-1 {
+    /* width: 200px */
+    padding: 15px;
+    width: 450px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.our-product {
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+.title-2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
+    margin: 25px;
+}
+
+.items {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.items img {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    border: 5px solid navy;
+}
+
+.items div {
+    width: 200px;
+}
+
+.quote {
+    padding: 50px 110px 30px 60px;
+    /* text-align: end; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #E5E7EB;
+}
+
+.quote > div {
+    font: 36px light italic;
+}
+strong {
+    margin-top: 10px;
+    font-size: 36px;
+}
+.call-section {
+    height:200px;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action {
+    border-radius:  12px;
+    width: 800px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   padding: 35px 55px;
+   color: white;
+}
+
+.call-header {
+    font-size: 30px;
+    font-family: Roboto,sans-serif ;
+}
+
+button {
+   /* max-height: 27px; */
+   padding: 10px 15px;
+   background-color: transparent;
+   border: 2px solid white;
+   color: white;
+   border-radius: 15px;
+}
+
+.footer {
+    text-align: center;
+    font: 23px Roboto, sans-serif;
+}
+
